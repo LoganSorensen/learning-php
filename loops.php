@@ -1,26 +1,25 @@
 <?php
-    # LOOPS - execture code a set number of times
+    # LOOPS - execute code a set number of times
 
     /**
      * For 
      * While
-     * Do..While
+     * Do...While
      * Foreach
-     */
+    */
 
     # For Loop
     # @params - init, condition, inc
 
     for($i = 0; $i < 10; $i++){
         // echo 'Number ' . $i;
-        // adds a line break
-        // echo '<br>';
+        // echo '<br>';     // adds a line break
     }
 
     # While loop
     # @params - condition
 
-    // $i = 0;
+    $i = 0;
 
     while($i < 10) {
         // echo $i;

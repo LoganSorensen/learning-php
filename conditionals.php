@@ -7,17 +7,17 @@
      * <
      * >
      * !=
-     * !==
+     * !== - evaluates data type
     */
 
     $num = 6;
 
     if($num == 5){
-        // echo 'passed';
+        // echo "$num passed";
     } else if($num == 6){
         // echo 'num is 6';
     } else {
-        // echo 'did not pass';
+        // echo "$num did not pass";
     }
 
     # NESTING IF
@@ -34,7 +34,7 @@
         LOGICAL OPERATORS
         and &&
         or  ||
-        xor
+        xor  - exclusive or, will run if only one of the statements is true, not both
     */
 
     if($num > 4 XOR $num < 10){
@@ -54,7 +54,7 @@
         case 'blue':
             echo 'Your favorite color is blue';
         break;
-        case 'green':
+        case 'green' && 1 === 1:
             echo 'Your favorite color is green';
         break;
         default:

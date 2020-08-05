@@ -16,16 +16,16 @@
     // an item can be added to the end of the array using empty [] as well
     $cars[] = 'BMW';
 
-    $string = 'Hello world';
-
+    
     // count() returns the length of the array
     // echo count($cars);
-
+    
     // print_r() prints the entire array
     // print_r($cars);
-
+    
     // var_dump() displays more information about the variable, including the data type of each item and it's length, useful for debugging
     // var_dump($cars);
+    $string = 'Hello world';
     // var_dump($string);
     
     // echo $people[0];
@@ -33,6 +33,7 @@
     // echo $cars[4];
 
     // Associative arrays
+    // contain key value pairs
     $people2 = array('Brad' => 35, 'Jose' => 32, 'William' => 37);
     $ids2 = [22 => 'Brad', 44 => 'Jose', 63 => 'William'];
     // syntax for adding an item to an assoc array:
@@ -52,7 +53,7 @@
         array('Ford', 23, 12), 
     );
 
-    // the first index given is the array we want to reference, the second index refers to the index of the array we've specified
+    // the first index given is the inner array we want to reference, the second index refers to the index of the array we've specified
     echo $cars2[1][2];  // will print 20
 
 

@@ -46,9 +46,9 @@
         $num += 10;
     }
 
-    addFive($myNum);
-    echo "Value: $myNum<br>";
-    addTen($myNum);
-    echo "Value by reference: $myNum<br>"
+    addFive($myNum);    // value of $myNum will still be 10
+    echo "Value: $myNum<br>";  
+    addTen($myNum);     // value of $myNum will now be 20
+    echo "Value by reference: $myNum<br>"   
 
 ?>

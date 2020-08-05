@@ -11,12 +11,12 @@
     // print 'Hello World';
 
     #VARIABLES
-    /**
+    /*
      *  - Prefix $
      *  - Start with a letter or an underscore
      *  - Only letters, numbers, and underscores
      *  - Case sensitive
-     */
+    */
 
     #DATA TYPES
     /*
@@ -28,9 +28,7 @@
      * Objects
      * NULL
      * Resource
-     */
-
-    
+    */
 
     $output = 'Hello World!';
     $num1 = 4;
@@ -48,7 +46,6 @@
     $greeting2 = '$string1 $string2';
     $greeting3 = "$string1 $string2";
 
-    
     $float1 = 4.4;
     $bool1 = true;
 
