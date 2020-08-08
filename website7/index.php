@@ -68,4 +68,3 @@
     $txt = "Steve Smith\n";
     fwrite($handle, $txt);
     fclose($handle);
-?>
